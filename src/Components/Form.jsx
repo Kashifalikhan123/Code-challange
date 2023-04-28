@@ -79,7 +79,7 @@ return (
         {formErrors.gender && <div className="error-message">{formErrors.gender}</div>}
       </div>
       <div className="form-field">
-        <label htmlFor="email">Email:</label>
+        <label htmlFor="email">Email: </label>
         <input
           id="email"
           name="email"
