@@ -1,0 +1,72 @@
+
+.form-container {
+    max-width: 500px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    /* border-radius: 5px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 47%;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+   
+
+  }
+  
+  .form-field input,
+  .form-field select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-field select {
+    appearance: none;
+    width: 90%;
+    -webkit-appearance: none;
+    background: url('https://cdn.icon-icons.com/icons2/1584/PNG/512/3386519-arrow-down-arrow-bottom-chevron-bottom-icon_108836.png') no-repeat right center;
+    background-size: 24px 24px;
+  }
+  
+  .form-field input:focus,
+  .form-field select:focus {
+    outline: none;
+    border-color: #1e70a7;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #171718;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0066cc;
+  }
+  
